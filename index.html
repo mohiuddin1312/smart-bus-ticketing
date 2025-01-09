@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Ticketing of Poribohon</title>
+    <!-- Ui Tailwind  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="mx-w-[1080px] mx-h-auto">
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-3xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="flex gap-2 btn bg-[#1DD1001A] text-green-400"
+            >Bus <img src="images/bus-icon.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="flex justify-center mb-10">
+        <div
+          class="hero min-h-screen w-11/12"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-4xl font-bold">
+                End-to-End Travel With
+                <br />
+                <span class="text-green-400">P Paribahan</span>
+              </h1>
+              <p class="mb-5">
+                Yes, you can run unit tests and view the results directly within
+                the app. The integrated testing features allow for a streamlined
+                .
+              </p>
+              <button class="btn bg-green-500 text-2xl font-bold">
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+      <!-- Best offers for you -->
+      <section class="">
+        <h1 class="text-3xl font-bold text-center">Best offers for you</h1>
+        <div class="flex gap-5 justify-center mt-10">
+          <!-- 15% oFF -->
+          <div class="flex bg-[#FFBF0FFF] rounded-lg">
+            <div class="p-16">
+              <h2 class="text-3xl font-extrabold">15% OFF</h2>
+              <p class="text-xl font-semibold">on your next purchase</p>
+              <span class="text-zinc-400">use by January 2024</span>
+            </div>
+            <img src="images/cupon-devider.png" alt="" />
+            <div class="p-16">
+              <h2>NEW15</h2>
+              <p class="text-zinc-400 text-xl">Coupon Code</p>
+            </div>
+          </div>
+          <!-- 20% OFF -->
+          <div class="flex bg-[#F78C9CFF] rounded-lg">
+            <div class="p-16">
+              <h2 class="text-3xl font-extrabold">20% OFF</h2>
+              <p class="text-xl font-semibold">on your next purchase</p>
+              <span class="text-zinc-400">use by January 2024</span>
+            </div>
+            <img src="images/cupon-devider.png" alt="" />
+            <div class="p-16">
+              <h2>NEW15</h2>
+              <p class="text-zinc-400 text-xl">Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <p class="text-center p-3 text-green-400 mt-10 border-green-400">
+          See All Offers
+        </p>
+      </section>
+      <!-- P.H Paribahan -->
+      <div class="text-center space-y-10 mt-10">
+        <h2 class="text-2xl font-bold">P.H Paribahan</h2>
+        <p class="px-96">
+          Yes, you can run unit tests and view the results directly within the
+          app. The integrated testing features allow for a streamlined .
+        </p>
+      </div>
+      <!-- Greenline paribahan -->
+      <section class="flex justify-center mt-10">
+        <div class="flex bg-gray-100 rounded-xl">
+          <div class="p-4 rounded-xl">
+            <!-- part-1 -->
+            <div class="flex justify-between">
+              <div class="flex gap-4">
+                <img src="images/bus-logo.png" alt="" />
+                <div>
+                  <h3 class="text-xl font-bold">Greenline Paribahan</h3>
+                  <p>Coach-009-WEB ! AC_Business</p>
+                </div>
+              </div>
+              <div>
+                <button class="flex btn bg-green-200 text-green-300">
+                  <img src="images/seat-green.png" alt="" />
+                  40 Seats left
+                </button>
+              </div>
+            </div>
+            <!-- end part-1 -->
+            <div class="">
+              <div class="flex justify-between">
+                <input type="text" name="" id="" placeholder="Route" />
+                <p>Dhaka-Sylhet</p>
+              </div>
+              <p>
+                ---------------------------------------------------------------------------------------------------
+              </p>
+              <div class="flex justify-between">
+                <input type="text" name="" id="" placeholder="Departure Time" />
+                <p>9.00 PM</p>
+              </div>
+              <p>
+                ---------------------------------------------------------------------------------------------------
+              </p>
+            </div>
+            <div class="flex gap-4">
+              <p class="bg-gray-200 p-5 rounded-xl">
+                Boarding Point - Laxmipur
+              </p>
+              <p class="bg-gray-200 p-5 rounded-xl">Dropping Point - Bogura</p>
+              <p class="bg-gray-200 p-5 rounded-xl">Est. Time - 11 Hour</p>
+            </div>
+          </div>
+          <img src="images/cupon-devider.png" alt="" />
+          <div class="flex-col p-16">
+            <img src="images/fare.png" alt="" />
+            <h3 class="text-xl font-bold">550 Taka</h3>
+            <p>Per Seat</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
